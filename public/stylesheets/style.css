@@ -54,3 +54,34 @@ nav ul {
     margin-top:6%;
     color:#373B41;
 }
+
+#seccioncontactenos {
+    display:grid;
+    grid-template-areas:"area1 area1 area1 area1 area1 area1"
+                        "area2 area2 area3 area3 area3 area3"
+                        "area4 area4 area5 area5 area5 area5";
+}
+
+#div1 {
+    grid-area: area1;
+}
+
+#div2 {
+    grid-area: area2;
+}
+
+#div3 {
+    grid-area: area3;
+}
+
+#div4 {
+    grid-area: area4;
+}
+
+#div5 {
+    grid-area: area5;
+}
+
+.caja {
+    padding: 0 0 0 5%;
+}

@@ -140,38 +140,39 @@
     </aside>
 
     <section id="seccioncontactenos" class="seccion">
-      <h2>Contáctame</h2>
-      <h3>Sus datos</h3>
+      <div id="div1"><h2>Contáctame</h2></div>
+      <div id="div2"><h3>Sus datos</h3></div>
 
-      <form>
-        <label for="nombre">Nombres:</label><input type="text" name="nombre"
-          id="nombre">
-        <label for="apellidos">Apellidos:</label><input type="text"
-          name="apellidos"
-          id="apellidos"><br>
+        <div id="div4">
+          <form>
+          <label for="nombre">Nombres:</label><input type="text" name="nombre"
+            id="nombre">
+          <label for="apellidos">Apellidos:</label><input type="text"
+            name="apellidos"
+            id="apellidos"><br>
 
-        <label>Seleccione su rango de edad</label><br>
-        <input type="radio" id="opcion1" name="edad" value="menor25"><label
-          for="opcion1"> menor a 25 años</label>
-        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
-          for="opcion2"> entre 26 y 30 años</label>
-        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
-          for="opcion3"> mayor a 31 años</label><br><br>
+          <label>Seleccione su rango de edad</label><br>
+          <input type="radio" id="opcion1" name="edad" value="menor25"><label
+            for="opcion1"> menor a 25 años</label><br>
+          <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+            for="opcion2"> entre 26 y 30 años</label><br>
+          <input type="radio" id="opcion3" name="edad" value="mayor31"><label
+            for="opcion3"> mayor a 31 años</label><br><br>
 
-        <label>Seleccione el tipo de servicio a consultar</label><br>
-        <input type="checkbox" name="frontend" id="frontend"><label
-          for="frontend">Frontend Dev</label><br>
-        <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
-          Dev</label><br>
-        <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
-          de software</label><br>
-        <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
-        <button type="submit">Enviar</button>
-      </form>
+          <label>Seleccione el tipo de servicio a consultar</label><br>
+          <input type="checkbox" name="frontend" id="frontend"><label
+            for="frontend">Frontend Dev</label><br>
+          <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+            Dev</label><br>
+          <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+            de software</label><br>
+          <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
 
-
-      <h3>Ubicación</h3>
-      <div>
+      <div id="div3" class="caja"><h3>Ubicación</h3></div>
+      <div id="div5" class="caja">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9040438237544!2d-79.88243942581059!3d-2.190044237280091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e7f4c7eccd1%3A0x17d816c4895402f8!2sJun%C3%ADn%20200%2C%20Guayaquil%20090313!5e0!3m2!1ses-419!2sec!4v1673668344740!5m2!1ses-419!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
