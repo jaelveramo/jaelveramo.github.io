@@ -57,9 +57,9 @@ nav ul {
 
 #seccioncontactenos {
     display:grid;
-    grid-template-areas:"area1 area1 area1 area1 area1 area1"
-                        "area2 area2 area3 area3 area3 area3"
-                        "area4 area4 area5 area5 area5 area5";
+    grid-template-areas:"area1 area1 area1 area1"
+                        "area2 area2 area3 area3"
+                        "area4 area4 area5 area5";
 }
 
 #div1 {
@@ -83,5 +83,5 @@ nav ul {
 }
 
 .caja {
-    padding: 0 0 0 5%;
+    padding-right: 50%;
 }
