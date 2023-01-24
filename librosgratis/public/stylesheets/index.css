@@ -38,7 +38,8 @@ header p span {
 nav ul {
     list-style-type: none;
     text-decoration: underline;
-    color: cornflowerblue;
+    font-weight: bold;
+    color: blue;
 }
 
 header {
@@ -92,40 +93,39 @@ nav ul {
     justify-content: space-around;
 }
 
-main {
+main div {
     display: grid;
-    grid-template-areas: "area1"
-                         "area2 area3 area4 area5 area6";
+    grid-template-areas: "aream2 aream3 aream4 aream5 aream6";
     padding-left: 5%;
-    column-gap: 30%;
 }
 
-main h2 span {
-    grid-area: area1;
+main h2 {
+    padding-left: 5%;
+    /*grid-area: aream1;*/
 }
 
 main #black {
-    grid-area: area2;
+    grid-area: aream2;
 }
 
 main #callen {
-    grid-area: area3;
+    grid-area: aream3;
 }
 
 main #cooper {
-    grid-area: area4;
+    grid-area: aream4;
 }
 
 main #crane2 {
-    grid-area: area5;
+    grid-area: aream5;
 }
 
 main #bibeault {
-    grid-area: area6;
+    grid-area: aream6;
 }
 
 main img {
-    width: 10%;
+    width: 85%;
     height: 90%;
     margin: 0 auto;
     background-color: white;

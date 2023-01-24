@@ -10,3 +10,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body a {
+    margin-left: 5%;
+}
+
+body a {
+    font-weight: bold;
+}
+
