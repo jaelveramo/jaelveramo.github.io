@@ -1,0 +1,139 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header h1 span {
+    font-size: 2em;
+    color: white;
+}
+
+header p {
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+}
+
+header p span {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+header {
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1 area1"
+                         "area2 area3 area4 area5 area6";
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    column-gap: 3%;
+}
+
+header h1 {
+    grid-area: area1;
+    margin-bottom: 0;
+}
+
+header p {
+    grid-area: area2;
+    margin-top: 0;
+    padding-top: 15%;
+}
+
+header img {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10%;
+    justify-content: center;
+}
+
+header #ableson2 {
+    grid-area: area3;
+}
+
+header #ableson {
+    grid-area: area4;
+}
+
+header #ahmed2 {
+    grid-area: area5;
+}
+
+header #adzic {
+    grid-area: area6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "area1"
+                         "area2 area3 area4 area5 area6";
+    padding-left: 5%;
+    column-gap: 30%;
+}
+
+main h2 span {
+    grid-area: area1;
+}
+
+main #black {
+    grid-area: area2;
+}
+
+main #callen {
+    grid-area: area3;
+}
+
+main #cooper {
+    grid-area: area4;
+}
+
+main #crane2 {
+    grid-area: area5;
+}
+
+main #bibeault {
+    grid-area: area6;
+}
+
+main img {
+    width: 10%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1%;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+    justify-content: center;
+}
+
+main div {
+    padding-right: 5%;
+}
