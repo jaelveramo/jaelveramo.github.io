@@ -26,10 +26,11 @@ header h1 span {
 }
 
 header p {
-    font-weight: 400;
+    font-weight: normal;
+    font-size: 1.2em;
     text-align: justify;
     color: white;
-}
+ }
 
 header p span {
     font-weight: bold;
@@ -37,54 +38,55 @@ header p span {
 
 nav ul {
     list-style-type: none;
-    text-decoration: underline;
-    color: cornflowerblue;
+    font-weight: bold;
 }
 
 header {
     display: grid;
-    grid-template-areas: "area1 area1 area1 area1 area1"
-                         "area2 area3 area4 area5 area6";
-    padding-top: 5%;
+    grid-template-areas: "area1 area2 area3 area4 area5"
+                         "area1 area2 area3 area4 area5";
+    padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
-    column-gap: 3%;
 }
 
-header h1 {
+header .librogratis {
     grid-area: area1;
-    margin-bottom: 0;
 }
 
 header p {
-    grid-area: area2;
-    margin-top: 0;
-    padding-top: 15%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
 
 header img {
-    width: 90%;
+    width: 70%;
     height: 80%;
     margin: 0 auto;
     background-color: white;
-    padding: 10%;
+    padding: 5%;
     justify-content: center;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }
 
 header #ableson2 {
-    grid-area: area3;
+    grid-area: area2;
 }
 
 header #ableson {
-    grid-area: area4;
+    grid-area: area3;
 }
 
 header #ahmed2 {
-    grid-area: area5;
+    grid-area: area4;
 }
 
 header #adzic {
-    grid-area: area6;
+    grid-area: area5;
+}
+
+header .caja {
+    margin-top: 50%;
 }
 
 nav ul {
@@ -94,46 +96,45 @@ nav ul {
 
 main {
     display: grid;
-    grid-template-areas: "area1"
-                         "area2 area3 area4 area5 area6";
+    grid-template-areas: "area2-1 area2-1 area2-1 area2-1 area2-1"
+                         "area2-2 area2-3 area2-4 area2-5 area2-6";
     padding-left: 5%;
-    column-gap: 30%;
 }
 
-main h2 span {
-    grid-area: area1;
+main h2 {
+    grid-area: area2-1;
 }
 
 main #black {
-    grid-area: area2;
+    grid-area: area2-2;
 }
 
 main #callen {
-    grid-area: area3;
+    grid-area: area2-3;
 }
 
 main #cooper {
-    grid-area: area4;
+    grid-area: area2-4;
 }
 
 main #crane2 {
-    grid-area: area5;
+    grid-area: area2-5;
 }
 
 main #bibeault {
-    grid-area: area6;
+    grid-area: area2-6;
 }
 
 main img {
-    width: 10%;
-    height: 90%;
+    width: 70%;
+    height: 80%;
     margin: 0 auto;
     background-color: white;
-    padding: 1%;
-    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+    padding: 5%;
     justify-content: center;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }
 
-main div {
+main .caja2 {
     padding-right: 5%;
 }
