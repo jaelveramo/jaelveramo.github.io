@@ -38,7 +38,13 @@ header p span {
 
 nav ul {
     list-style-type: none;
+<<<<<<< HEAD
     font-weight: bold;
+=======
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+>>>>>>> 929a7f8215d635e304dd37a7a5cfcf2fcce0a6cd
 }
 
 header {
@@ -94,14 +100,19 @@ nav ul {
     justify-content: space-around;
 }
 
-main {
+main div {
     display: grid;
+<<<<<<< HEAD
     grid-template-areas: "area2-1 area2-1 area2-1 area2-1 area2-1"
                          "area2-2 area2-3 area2-4 area2-5 area2-6";
+=======
+    grid-template-areas: "aream2 aream3 aream4 aream5 aream6";
+>>>>>>> 929a7f8215d635e304dd37a7a5cfcf2fcce0a6cd
     padding-left: 5%;
 }
 
 main h2 {
+<<<<<<< HEAD
     grid-area: area2-1;
 }
 
@@ -128,6 +139,35 @@ main #bibeault {
 main img {
     width: 70%;
     height: 80%;
+=======
+    padding-left: 5%;
+    /*grid-area: aream1;*/
+}
+
+main #black {
+    grid-area: aream2;
+}
+
+main #callen {
+    grid-area: aream3;
+}
+
+main #cooper {
+    grid-area: aream4;
+}
+
+main #crane2 {
+    grid-area: aream5;
+}
+
+main #bibeault {
+    grid-area: aream6;
+}
+
+main img {
+    width: 85%;
+    height: 90%;
+>>>>>>> 929a7f8215d635e304dd37a7a5cfcf2fcce0a6cd
     margin: 0 auto;
     background-color: white;
     padding: 5%;
