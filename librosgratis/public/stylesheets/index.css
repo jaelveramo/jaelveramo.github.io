@@ -22,14 +22,14 @@ header {
 
 header h1 span {
     font-size: 2em;
-    color: white;
+    color: whitesmoke;
 }
 
 header p {
     font-weight: normal;
     font-size: large;
     text-align: justify;
-    color: white;
+    color: whitesmoke;
     padding-right: 5%;
  }
 
@@ -96,7 +96,8 @@ nav ul {
 }
 
 main h2 {
-    width: 90%;
+    font-size: xx-large;
+    font-weight: normal;
 }
 
 main {
