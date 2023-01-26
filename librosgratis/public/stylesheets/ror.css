@@ -12,7 +12,6 @@ body {
 }
 
 body a {
-<<<<<<< HEAD
     font-weight: bold;
 }
 
@@ -39,12 +38,3 @@ body #img1 {
 body .caja {
     padding: 3%;
 }
-=======
-    margin-left: 5%;
-}
-
-body a {
-    font-weight: bold;
-}
-
->>>>>>> 929a7f8215d635e304dd37a7a5cfcf2fcce0a6cd
