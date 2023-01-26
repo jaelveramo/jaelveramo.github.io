@@ -95,7 +95,7 @@ nav ul {
     justify-content: space-around;
 }
 
-main div {
+main {
     display: grid;
     grid-template-areas: "area2-1 area2-1 area2-1 area2-1 area2-1"
                          "area2-2 area2-3 area2-4 area2-5 area2-6";
@@ -128,7 +128,7 @@ main #bibeault {
 
 main img {
     width: 70%;
-    height: 80%;
+    height: 70%;
     margin: 0 auto;
     background-color: white;
     padding: 5%;
