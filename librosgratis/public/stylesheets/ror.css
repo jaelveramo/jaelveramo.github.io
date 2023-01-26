@@ -21,6 +21,10 @@ body {
     justify-content: space-between;
 }
 
+body p span {
+    font-weight: bold;
+}
+
 body img {
     width: 100%;
     height: 100%;
@@ -29,6 +33,18 @@ body img {
     padding: 5%;
     justify-content: center;
     box-shadow: 0 1px 6px rgb(0 0 0 /12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+body #detalle1 {
+    width: 35%;
+}
+
+body #detalle2 {
+    width: 45;
+}
+
+body #detalle3 {
+    width: 20;
 }
 
 body #img1 {
