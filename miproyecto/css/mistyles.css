@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*!
+* Mis estilos
+ */
+ .navbar-light .navbar-brand {
+  /*Cambio color y tamaño*/
+  color: var(--bs-indigo);
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  /*Cambio color y tamaño*/
+  color: var(--bs-indigo);
+}
+.navbar-light .navbar-nav .nav-link {
+  /*Cambio color*/
+  --bs-indigo-rgb: 102, 16, 242;
+  color: rgba(var(--bs-indigo-rgb), 1 - 0.40);
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  /*Cambio color*/
+  --bs-indigo-rgb: 102, 16, 242;
+  color: rgba(var(--bs-indigo-rgb), 1 - 0.20);
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  /*Cambio color*/
+  --bs-indigo-rgb: 102, 16, 242;
+  color: rgba(var(--bs-indigo-rgb), 1 - 0.60);
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  /*Cambio color y tamaño*/
+  color: var(--bs-indigo);
+}
+.navbar-light .navbar-toggler {
+  /*Cambio color*/
+  --bs-indigo-rgb: 102, 16, 242;
+  color: rgba(var(--bs-indigo-rgb), 1 - 0.40);
+}
+.navbar-light .navbar-text {
+  /*Cambio color*/
+  --bs-indigo-rgb: 102, 16, 242;
+  color: rgba(var(--bs-indigo-rgb), 1 - 0.40);
+}
+.navbar-light .navbar-text a,
+.navbar-light .navbar-text a:hover,
+.navbar-light .navbar-text a:focus {
+  /*Cambio color y tamaño*/
+  color: var(--bs-indigo);
+}
+
+.coloractuales {
+  --bs-coloractuales: 194, 56, 235, 1;
+  color: rgba(var(--bs-coloractuales));
+}
+
+.colorrecuerdos {
+  --bs-colorrecuerdos: 99, 52, 227, 1;
+  color: rgba(var(--bs-colorrecuerdos));
+}
+
+.colorsonado {
+  --bs-colorsonado: 61, 138, 247, 1;
+  color: rgba(var(--bs-colorsonado));
+}
