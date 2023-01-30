@@ -57,7 +57,7 @@
   color: rgba(var(--bs-colorrecuerdos));
 }
 
-.colorsonado {
-  --bs-colorsonado: 61, 138, 247, 1;
-  color: rgba(var(--bs-colorsonado));
+.colorescuchado {
+  --bs-colorescuchado: 61, 138, 247, 1;
+  color: rgba(var(--bs-colorescuchado));
 }
