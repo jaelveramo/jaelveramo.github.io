@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
                 <!--<a class="navbar-brand" href="#!">Start Bootstrap</a>*-->
-                <a class="navbar-brand" href="#!"><image src="public/images/ecuatorianisimos.png"></image>></a>
+                <a id="home" class="navbar-brand" href="#!"><image src="public/images/ecuatorianisimos.png"></image>></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
@@ -38,7 +38,7 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#actuales">Actuales</a></li>
                         <li class="nav-item"><a class="nav-link" href="#recuerdos">Del recuerdo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sonado">Lo más escuchado</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#escuchado">Lo más escuchado</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contactenos">Contáctenos</a></li>
                     </ul>
                     <!-- <form class="d-flex">
@@ -65,7 +65,12 @@
         <!-- Section-->
         <!-- <section class="py-5"> -->
         <section id="actuales" class="py-5 coloractuales">
-            <h3 class="container px-4 px-lg-5 mt-5 coloractuales">Actuales</h3>
+            <div class="container">
+                <div class="row gx-4 gx-lg-5 row-cols-2">
+                    <h3 class="coloractuales">Actuales</h3>
+                    <div class="text-end"><span><a class="nav-link active" href="#home">Home</a></span></div>
+                </div>
+            </div>
             <!-- <div class="container px-4 px-lg-5 mt-5"> -->
             <div class="container px-4 px-lg-5 border border-5 border-dark">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -282,7 +287,12 @@
         </section>
 
         <section id="recuerdos" class="py-5 colorrecuerdos">
-            <h3 class="container px-4 px-lg-5 mt-5 text-end colorrecuerdos">Del recuerdo</h3>
+            <div class="container">
+                <div class="row gx-4 gx-lg-5 row-cols-2">
+                    <div><a href="#home">Home</a></div>
+                    <h3 class="text-end colorrecuerdos">Del recuerdo</h3>
+                </div>
+            </div>
             <div class="container px-4 px-lg-5 border border-5 border-dark">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
@@ -293,7 +303,7 @@
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorrecuerdos"></h5>
+                                    <h5 class="fw-bolder colorrecuerdos">JULIO JARAMILLO NUESTRO JURAMENTO</h5>
                                 </div>
                             </div>
                         </div>
@@ -301,12 +311,12 @@
                         <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <!-- iframe -->
+                            <iframe class="card-img-top" width="450" height="300" src="https://www.youtube.com/embed/j7WlImAPGho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <!-- Product details-->
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorrecuerdos"></h5>
+                                    <h5 class="fw-bolder colorrecuerdos">AU-D - Tres Notas ( video Original)</h5>
                                 </div>
                             </div>
                         </div>
@@ -314,12 +324,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <!-- iframe -->
+                            <iframe class="card-img-top" width="450" height="300" src="https://www.youtube.com/embed/VP4RSvvyd2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <!-- Product details-->
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorrecuerdos"></h5>
+                                    <h5 class="fw-bolder colorrecuerdos">Tranzas - Mori</h5>
                                 </div>
                             </div>
                         </div>
@@ -341,8 +351,13 @@
             </div>
         </section>
 
-        <section id="escuchado" class="py-5 colorsonado">
-            <h3 class="container px-4 px-lg-5 mt-5 colorsonado">Lo más escuchado</h3>
+        <section id="escuchado" class="py-5 colorescuchado">
+            <div class="container">
+                <div class="row gx-4 gx-lg-5 row-cols-2">
+                    <h3 class="colorescuchado">Lo más escuchado</h3>
+                    <div class="text-end"><a class="nav-link active" href="#home">Home</a></div>
+                </div>
+            </div>
             <div class="container px-4 px-lg-5 border border-5 border-dark">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
@@ -353,7 +368,7 @@
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorsonado">Dayanara - El Desquite - (Video Oficial)</h5>
+                                    <h5 class="fw-bolder colorescuchado">Dayanara - El Desquite - (Video Oficial)</h5>
                                 </div>
                             </div>
                         </div>
@@ -366,7 +381,7 @@
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorsonado">PRENDE (Remix) - Exay, Diego Villacis DVM, Bebo Yau, Blacky Melusi, I.N.R.I</h5>
+                                    <h5 class="fw-bolder colorescuchado">PRENDE (Remix) - Exay, Diego Villacis DVM, Bebo Yau, Blacky Melusi, I.N.R.I</h5>
                                 </div>
                             </div>
                         </div>
@@ -379,7 +394,7 @@
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorsonado">ATEO - Diego Villacis DVM (Video Oficial)</h5>
+                                    <h5 class="fw-bolder colorescuchado">ATEO - Diego Villacis DVM (Video Oficial)</h5>
                                 </div>
                             </div>
                         </div>
@@ -392,7 +407,7 @@
                             <div class="card-body p-4 border border-dark bg-dark">
                                 <div class="text-center bg-dark">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder colorsonado"></h5>
+                                    <h5 class="fw-bolder colorescuchado">Dayanara, Katie Angel - EL MENÚ [ Official Video ]</h5>
                                 </div>
                             </div>
                         </div>
