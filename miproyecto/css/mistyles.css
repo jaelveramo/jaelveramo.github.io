@@ -47,17 +47,17 @@
   color: var(--bs-indigo);
 }
 
-.coloractuales {
-  --bs-coloractuales: 194, 56, 235, 1;
-  color: rgba(var(--bs-coloractuales));
+.color-actuales {
+  --bs-color-actuales: 194, 56, 235, 1;
+  color: rgba(var(--bs-color-actuales));
 }
 
-.colorrecuerdos {
-  --bs-colorrecuerdos: 99, 52, 227, 1;
-  color: rgba(var(--bs-colorrecuerdos));
+.color-recuerdos {
+  --bs-color-recuerdos: 99, 52, 227, 1;
+  color: rgba(var(--bs-color-recuerdos));
 }
 
-.colorescuchado {
-  --bs-colorescuchado: 61, 138, 247, 1;
-  color: rgba(var(--bs-colorescuchado));
+.color-escuchado {
+  --bs-color-escuchado: 61, 138, 247, 1;
+  color: rgba(var(--bs-color-escuchado));
 }
