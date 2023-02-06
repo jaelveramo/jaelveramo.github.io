@@ -19,7 +19,7 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container px-4 px-lg-5">
-                    <a id="home" class="navbar-brand" href="index.html#!"><img src="public/images/ecuatorianisimos.png" alt="Ecuatorianísimos"></a>
+                    <a id="home" class="navbar-brand" href="index.html#!"><img src="images/ecuatorianisimos.png" alt="Ecuatorianísimos"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
@@ -67,9 +67,10 @@
                                     </div>
                                     <!-- Phone number input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required">
+                                        <input class="form-control" id="phone" type="tel" pattern="([0-9]{3}) [0-9]{1} [0-9]{3}-[0-9]{4}" placeholder="(123) 4 456-7890" data-sb-validations="required">
                                         <label for="phone">Número de teléfono</label>
                                         <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un número de teléfono.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="phone:tel">El número no es válido.</div>
                                     </div>
                                     <!-- Message input-->
                                     <div class="form-floating mb-3">
@@ -83,7 +84,7 @@
                                     <!-- has successfully submitted-->
                                     <div class="d-none" id="submitSuccessMessage">
                                         <div class="text-center mb-3">
-                                            <div class="fw-bolder">Envío de formulario exitoso!</div>
+                                            <div class="fw-bolder text-white-50">Envío de formulario exitoso!</div>
                                             <br>
                                             <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                         </div>
